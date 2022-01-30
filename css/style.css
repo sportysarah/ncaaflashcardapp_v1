@@ -1,0 +1,50 @@
+.title {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.about {
+    text-align: center;
+    margin-top:30px;
+}
+
+.term {
+    border: solid 5px black;
+    border-radius: 15px;
+    text-align: center;
+    width: 45%; /**%'s are good for responsive layouts rather than a fixed width**/ 
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.definition {
+    border: solid 5px black;
+    border-radius: 15px;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding:20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.sticker {
+    text-align: center;
+    margin-top: 100px;
+}
